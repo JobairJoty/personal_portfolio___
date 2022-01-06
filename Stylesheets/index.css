@@ -1,13 +1,14 @@
 body{
     width: 100%;
+    margin:0px;
     font-family: 'Poppins', sans-serif;
 }
 #top-banner{
     width:1077px;
-    height: 623px;
+    /* height: 623px; */
     display: flex;
     margin:auto;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .content{
     width:40%;
@@ -55,7 +56,7 @@ button{
 
 #middle-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1077px;
     margin: 0px auto;
 }
@@ -86,7 +87,7 @@ button{
 
 #develop{
     width:1077px;
-    height: 623px;
+/*     height: 623px; */
     display: flex;
     margin: 60px auto;
     justify-content:space-between;
@@ -97,12 +98,58 @@ button{
 }
 #develop img{
     width: 400px;
-    margin:10px 0px 10px 30px;
+    margin:10px 0px 10px 0px;
 }
 #develop div.develop-content{
   
 }
 
+#develop p{
+    text-align: justify;
+    
+}
 
+/* Community Content */
+#community{
+    width:1077px;
+    height: 623px;
+    display: flex;
+    margin: 60px auto;
+    justify-content:space-between;
+}
 
+#community div{
+    width: 50%;
+}
+#community img{
+    width: 400px;
+    margin:10px 0px 10px 150px;
+}
+#community div.community-content{
+  
+}
 
+#community p{
+    text-align: justify;
+    
+}
+
+footer{
+    background-color: rgb(11,13,23);
+    /* height: 150px; */
+    padding: 32px 0px 32px 0px;
+}
+footer h2{
+    color:white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+footer p{
+    color:white;
+    text-align: center;
+}
+.coral{
+    color:coral;
+}

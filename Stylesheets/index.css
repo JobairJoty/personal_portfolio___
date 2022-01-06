@@ -1,6 +1,22 @@
 body{
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
+#top-banner{
+    width:1077px;
+    height: 623px;
+    display: flex;
+    margin:auto;
+    justify-content:space-around;
+}
+.content{
+    width:40%;
+     margin:10% 0% 0% 5%;
+ }
+ .profile-pic{
+     width: 40%;
+     margin:0% 0% 0% 5%;
+ }
 #top-banner h1{
     font-size: 48px;
     font-family: microsoft tai le;
@@ -17,33 +33,15 @@ body{
     text-align: justify;
     
 }
+#top-banner img{
+    margin-left:70px;
+    width: 400px;
+}
 
 
 .yellow_text{
     color:orange;
 }
-
-#top-banner{
-    width:1077px;
-    height: 623px;
-    display: flex;
-    margin: 0px auto;
-    justify-content:space-around;
-}
-
-
-.content{
-   width:40%;
-    margin:10% 0% 0% 5%;
-}
-.profile-pic{
-    width: 40%;
-    margin:0% 0% 0% 5%;
-}
-img{
-    width: 400px;
-}
-
 button{
     padding: 10px 30px 10px 30px;
     color:white;
@@ -82,3 +80,29 @@ button{
 #middle-section img{
     width: 150px;
 }
+
+
+/* develop section */
+
+#develop{
+    width:1077px;
+    height: 623px;
+    display: flex;
+    margin: 60px auto;
+    justify-content:space-between;
+}
+
+#develop div{
+    width: 50%;
+}
+#develop img{
+    width: 400px;
+    margin:10px 0px 10px 30px;
+}
+#develop div.develop-content{
+  
+}
+
+
+
+
